@@ -5,7 +5,7 @@
 The backend makes requests to the google sheets API according to the URL on the browser and builds a web page to display the data. Because the sheets Api don't filter the sheet by passing parameters within the requests I ended up filtering the response internally with java instead of using other [workarounds](https://stackoverflow.com/questions/67628828/use-google-spreadsheet-api-to-obtain-values-filtered-by-filter-view)
 
 obs: It's responsive for smartphones too.</br>
-It may be needed to change the spreadsheet URL in the SheetService.java
+It may be needed to change the spreadsheet URL in the SheetService.java and add google credentials to access the sheets API on the resources folder.
 
 ## Dependencies used
 
